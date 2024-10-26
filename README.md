@@ -1,2 +1,3 @@
-# mc-ui-trainer
-A complete UI training
+# Mc ui trainer
+
+- A complete UI training
