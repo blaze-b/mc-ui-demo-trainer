@@ -1,3 +1,6 @@
+// Let scope
+// The scope of the let variable remains in the {} brackets
+
 if (true) {
     var name = "Brian";
     console.log(name);
@@ -9,5 +12,4 @@ if (true) {
     console.log(name);
 }
 
-console.log(name); //the scope of the let variable remains in the {} brackets
-
+console.log(name);
