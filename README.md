@@ -43,4 +43,4 @@ $ ./driver.sh
 
 ## HTML learning
 
-The html forms are added in the directory `mc-html-trainer`, [index.html](././mc-html-trainer/index.html)
+The html forms are added in the directory `mc-html-trainer`, [index.md](././mc-html-trainer/index.md)
