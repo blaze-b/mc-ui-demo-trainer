@@ -34,7 +34,7 @@ To clone and run this project, you'll need [Git](https://git-scm.com) and [Node.
 $ git clone https://github.com/blaze-b/mc-ui-trainer.git
 
 # Go into the repository
-$ cd mc-ui-trainer
+$ cd ./mc-ui-trainer/mc-javascript-trainer
 
 # Run the app
 $ ./driver.sh
