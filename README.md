@@ -8,7 +8,7 @@ This repository hosts the code for the MC UI Trainer project.
     - [Repository Link](#repository-link)
     - [Overview](#overview)
     - [Features](#features)
-    - [Installation](#installation-javaScript)
+    - [Installation](#javascript-learning)
 
 ## Repository Link
 
@@ -24,7 +24,7 @@ and analytics.
 
 - **Customizable Training Modules:** Create and edit training modules to suit specific needs.
 
-## Installation javaScript
+## Javascript learning
 
 To clone and run this project, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org) installed on your computer. From your command line:
 
@@ -40,3 +40,7 @@ $ cd ./mc-ui-trainer/mc-javascript-trainer
 $ ./driver.sh
 
 ```
+
+## HTML learning
+
+The html forms are added in the directory `mc-html-trainer`, [index.html](././mc-html-trainer/index.html)
