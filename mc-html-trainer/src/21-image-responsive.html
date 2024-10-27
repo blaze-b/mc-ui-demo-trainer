@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* ----------- */
+    html {
+        margin: 0 4em;
+    }
+
+    img {
+        display: block;
+        margin: 4rem 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Standard Image width sizes are 480 px, 960px, 1440px, 1920 px -->
+<p><img src="./assets/images/dog-480.jpg" alt="Images for responsive 480*360 px"
+        width="480"
+        height="360"></p>
+
+<p><img src="./assets/images/dog-480.jpg" alt="Images for responsive 480*360 px"
+        width="480"
+        height="360" srcset="./assets/images/dog-960.jpg 2x,
+            ./assets/images/dog-1440.jpg 3x,
+            ./assets/images/dog-1920.jpg 4x"></p>
+</body>
+
+</html>

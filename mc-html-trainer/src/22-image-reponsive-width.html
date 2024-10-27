@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    /* ----------- */
+    html {
+        margin: 0 1em;
+    }
+
+    img {
+        display: block;
+        margin: 2rem 0;
+        width: 100%;
+        height: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- sizes attriibute
+src-set => Allows you to specify multiple files to be used based on either viewport width or image pixel width  -->
+<img src="./assets/images/dog-480.jpg" alt="Images for responsive 480*360 px"
+     width="480" height="360"
+     srcset="./assets/images/dog-480.jpg  480w,
+        ./assets/images/dog-960.jpg  960w,
+        ./assets/images/dog-1440.jpg 1440w,
+        ./assets/images/dog-1920.jpg 1920w"
+     sizes="(max-width: 480px) 240px,
+        (max-width: 960px) 480px, 
+        (max-width: 1440px) 960px,
+        1920px">
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+        font-family: Lora, Georgia, serif;
+        margin: 2rem 4em;
+        font-size: 170%;
+    }
+
+    audio {
+        display: block;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+  </style>
+
+</head>
+
+<body>
+<!-- Structure is similar to the image -->
+<!-- mp3 format -->
+<audio controls src="./assets/audio/file_example_MP3_700KB.mp3">
+</audio>
+<!-- Several attributes -->
+<!-- loop -->
+<audio controls src="./assets/audio/file_example_MP3_700KB.mp3" loop></audio>
+<!-- autoplay -->
+<audio controls src="./assets/audio/file_example_MP3_700KB.mp3" autoplay></audio>
+<audio controls loop autoplay>
+  <source src="http://example.com/birds.ogg" type="audio/ogg; codec=opus">
+  <source src="./assets/audio/file_example_MP3_700KB.mp3" type="audio/mpeg">
+  Sorry your browser doesn't support this audio....
+</audio>
+<p>Audio Formats</p>
+<ol>
+  <li>.mp3</li>
+  <li>.ogg</li>
+</ol>
+</body>
+
+</html>

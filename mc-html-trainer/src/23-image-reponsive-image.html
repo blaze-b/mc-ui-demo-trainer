@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+        margin: 0 1em;
+    }
+
+    img {
+        display: block;
+        margin: 2rem 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .half-width {
+        width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+<picture>
+
+  <source media="(min-width:600px)"
+          srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-720.jpg">
+
+  <source srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-320.jpg">
+
+  <img src="./assets/images/dog-480.jpg" width="480" height="360"
+       alt="black dog lying in the sun">
+
+</picture>
+
+</body>
+
+</html>
