@@ -78,4 +78,4 @@ $ ./driver.sh
 - TypeScript is a strongly typed language
 - Add support for classes, interfaces, and modules
 - Classes, interfaces, and modules help in organizing the code
-- Website link: [TypeScript](https://www.typescriptlang.org/), [Type script details](./docs/typescript-details)
+- Website link: [TypeScript](https://www.typescriptlang.org/), [Type script details](./docs/typescript-details.md)
