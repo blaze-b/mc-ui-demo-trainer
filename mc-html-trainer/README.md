@@ -1,21 +1,35 @@
-## HTML Essential Training
+### HTML Essential Training
 
-### Introduction
+## Introduction
 
 * It stands for the HyperText Markup Language
 * It defines the content of the sites
 * Simple syntax `<code><p></code>` - stands for paragraph
 * Each tag is called an element
 
-### Basic Structure
+## Basic Structure
 
 !["Basic structure"](./app/assets/images/HTML-Basic-Structure.PNG)
 
-### DOM Tree (Document Object Model)
+## DOM Tree (Document Object Model)
 
 * The hierarchy and structure of the HTML elements, often used for targeting elements in CSS and
   JavaScript
 * URL for immediate HTML coding and testing: [codepen.io](https://codepen.io/pen/)
+
+## Creating websites requires disciplines for front end development
+
+- Developing the visual parts of websites
+- Controls topography, color, layout and graphics
+- Responsible for site planning, user-interaction, experience and client-side scripting
+- Minimal Scripting
+- Just in time learning
+
+## Alternate ways to create web content
+
+- Hire a web agent or agency
+- Template-based site
+- Blogging and social media
 
 ## HTML Page Development
 
@@ -53,7 +67,7 @@
             - `section` - Wraps around sections of content
             - `aside` - Marks content that is off to the side or not the main attraction
 
-### HTML Attributes
+## HTML Attributes
 
 1. **Headlines element**: `<h1>Content...</h1>` (There are six headline
    tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, with `<h1>` being the
@@ -115,6 +129,39 @@
     - Basic form building, [example](./app/27-form.html)
     - Different types of form basic elements, [example](./app/28-form-advanced.html)
     - Tables basics, example: `<table>`,`<tr>`, `<th>`, `<td>`, [example](./app/29-table.html)
+
+## Different ways of web design
+
+- Generalist
+    - Core Skills
+    - Planning/Prototyping -> Buiding/Testing
+    - Able to build from scratch
+
+- Visual Designers
+    - Color,Layout, topography and graphics
+    - Graphic designers
+
+- UX Designers
+    - User Experience
+    - Focuses on human behaviour and interaction
+    - Usually little to no web designs
+
+- Interactive Designers
+    - Build Interfaces to create seamless interactions.
+    - Focus on JavaScript to modify HTML
+
+- Motion Graphic Designers
+    - Traditional Animator
+    - flash is used and the front end is CANVAS
+
+- Front End Developers
+    - Writes scripts that run on the client side
+    - Works to incorporate design elements with scripts to create the best experience
+    - User HTML, JS Framework and JS
+
+- CMS Specialist(Content Management System)
+    - Uses Drupal, Joomla, WordPress to build highly functional sites
+    - Usually specialize in on CMS
 
 ## Web development, specifications, web Standards and HTML 5 references
 

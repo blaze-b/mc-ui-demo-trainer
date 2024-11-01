@@ -23,3 +23,5 @@ node ./src/11-object-restructuring.js
 node ./src/12-array-restructuring.js
 
 node ./src/13-oops.js
+
+node ./src/14-promises.js

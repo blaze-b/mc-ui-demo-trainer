@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title inside the head-->
+    <title>First Web Page</title>
+    <style>
+        /* selector {code} */
+        body {
+            color: red;
+        }
+
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 32px;
+            color: black;
+        }
+
+        button {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Visual Content-->
+    <!-- Heading -->
+    <h1>My First Page</h1>
+    <!-- Paragraph -->
+    <p>This is my first html page and it is helping me to understand the HTML coding basics</p>
+
+    <button id="color">Change Color !!</button>
+    <!-- Script Tags -->
+    <script>
+        document.getElementById('color').onclick = changeColor;
+        var currentColor = "red";
+        function changeColor() {
+            //alert("Entering the change color button");
+            if (currentColor == "red") {
+                document.body.style.color = "green";
+                currentColor = "green";
+            } else {
+                document.body.style.color = "red";
+                currentColor = "red";
+            }
+            return currentColor;
+        }
+    </script>
+</body>
+
+
+</html>
