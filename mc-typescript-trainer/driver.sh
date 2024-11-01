@@ -1,3 +1,5 @@
 tsc
 
-node ./dist/01-basics.js
+node ./dist/Basics.js
+
+node ./dist/Driver.js

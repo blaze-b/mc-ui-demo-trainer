@@ -8,16 +8,14 @@ let isUpdated: boolean = true;
 
 console.log(myName);
 
-// any example
+// Any example
 // Changes of losing the type safety
 let myData: any = "Hello";
-
 
 // Using the backticks for printing
 console.log(`My data is ${myData} + ${myAge}`);
 
 // For loop
-
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
@@ -107,6 +105,7 @@ console.log(person.getAge());
 // protected: accessible within the class and its subclasses
 
 class Employee {
+
   private readonly name: string;
   private readonly age: number;
 
@@ -118,6 +117,7 @@ class Employee {
   printDetails() {
     console.log(`Name is ${this.name} and age is ${this.age}`);
   }
+
 }
 
 let employee = new Employee("Darby", 30);
