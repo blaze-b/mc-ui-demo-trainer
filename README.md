@@ -11,6 +11,7 @@ This repository hosts the code for the MC UI Trainer project.
     - [HTML](#html-learning)
     - [CSS](#css-learning)
     - [JS](#javascript-learning)
+    - [TS]()
 
 ## Repository Link
 
@@ -66,3 +67,15 @@ $ cd ./mc-ui-trainer/mc-javascript-trainer
 $ ./driver.sh
 
 ```
+
+## Typescript learning
+
+- TypeScript is a superset of JavaScript
+  - Language developed by Microsoft in 2012
+  - Free and open-source programming language
+- TypeScript is a statically typed language
+  - Helps in catching errors at compile time
+- TypeScript is a strongly typed language
+- Add support for classes, interfaces, and modules
+- Classes, interfaces, and modules help in organizing the code
+- Website link: [TypeScript](https://www.typescriptlang.org/), [Type script details](./docs/typescript-details)
