@@ -30,7 +30,6 @@ and analytics.
 
 The html forms are added in the directory `mc-html-trainer`, [LINK](././mc-html-trainer/README.md)
 
-
 ## Javascript learning
 
 To clone and run this project, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org) installed on your computer. From your command line:

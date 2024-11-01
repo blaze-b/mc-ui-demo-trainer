@@ -66,13 +66,7 @@
 
 15. **Generic elements**: `div` and `span`, [example](./app/19-generic-elements.html)
 
-16. **Images and graphics**: `img`, `srcset`, `figure`, and `figcaption` elements,
-    - [example1](./app/20-image-formats.html),
-    - [example2](./app/21-image-responsive.html),
-    - [example3](./app/22-image-responsive-width.html),
-    - [example4](./app/23-image-responsive-image.html),
-    - [example5](./app/24-image-figure-figcaption.html),
-    - [example6](./app/25-image-responsive-multiple.html)
+16. **Images and graphics**: `img`, `srcset`, `figure`, and `figcaption` elements, [example1](./app/20-image-formats.html), [example2](./app/21-image-responsive.html), [example3](./app/22-image-responsive-width.html), [example4](./app/23-image-responsive-image.html), [example5](./app/24-image-figure-figcaption.html), [example6](./app/25-image-responsive-multiple.html)
 
 17. **Audio element**: [example](./app/26-audio.html)
 
