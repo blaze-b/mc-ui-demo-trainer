@@ -65,9 +65,9 @@
 
 ## Typography
 
-- It establishes hirarchy
-- Content->
-    1. It should be concice, succinct and usable,
+- It establishes hierarchy
+- Content:
+    1. It should be concise, succinct and usable,
         - Headings
         - Buttons
         - Field Labels
@@ -79,9 +79,9 @@
     4. Uppercase for short headings
     5. Sentence casing
     6. Always Left aligned
-    7. Dont use less than 11 px for body copy
+    7. Don't use less than 11 px for body copy
     8. Icons
-        - It supports content scannability
+        - It supports content scalability
         - It should appear related to each other and belong to the same set
         - Test icons on various backgrounds and for cultural appropriateness
         - Line Weights should be considered
@@ -90,7 +90,7 @@
     9. Colors
         - It can be used to associate information and convey hierarchy
         - It provide emphasis
-        - Gray used to deemphasize elements.
+        - Gray used to de-emphasize elements.
         - Gradient and drop shadows can add depth and dimension
         - Contrast Ratio must allow for distinguishing elements from the background
         - Run through Contrast Checker
