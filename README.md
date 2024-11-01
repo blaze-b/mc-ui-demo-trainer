@@ -18,13 +18,14 @@ This repository hosts the code for the MC UI Trainer project.
 
 ## Overview
 
-The MC UI Trainer is designed to help users train and optimize user interfaces in Minecraft. 
-This tool aims to improve the user experience by providing customizable training modules 
+The MC UI Trainer is designed to help users train and optimize user interfaces in Minecraft.
+This tool aims to improve the user experience by providing customizable training modules
 and analytics.
 
-   1. HTML(HyperText Markup language)
-   2. CSS (Cascading Style Sheets)
-   3. JavaScript
+1. HTML(HyperText Markup language)
+2. CSS (Cascading Style Sheets)
+3. JavaScript
+4. [Interactive web design](./docs/interactive-web-design.md)
 
 ## Features
 
@@ -42,15 +43,16 @@ The css details are added in the directory `mc-css-trainer`, [LINK](././mc-css-t
 
 ## Javascript learning
 
-To clone and run this project, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org) installed on your computer. From your command line:
+To clone and run this project, you'll need [Git](https://git-scm.com)
+and [Node.js](https://nodejs.org) installed on your computer. From your command line:
 
 JavaScript is basically the EcmaScripts,
 
-  - `<script>` tag is used
-  - `var` is the datatype
-  - `=` for the assignment of values
-  - `==` for the checking of values
-  - It also helps in animating
+- `<script>` tag is used
+- `var` is the datatype
+- `=` for the assignment of values
+- `==` for the checking of values
+- It also helps in animating
 
 ```bash
 
