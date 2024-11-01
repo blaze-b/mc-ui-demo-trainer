@@ -8,7 +8,8 @@ This repository hosts the code for the MC UI Trainer project.
     - [Repository Link](#repository-link)
     - [Overview](#overview)
     - [Features](#features)
-    - [Installation](#javascript-learning)
+    - [HTML](#html-learning)
+    - [JS](#javascript-learning)
 
 ## Repository Link
 
@@ -23,6 +24,12 @@ and analytics.
 ## Features
 
 - **Customizable Training Modules:** Create and edit training modules to suit specific needs.
+
+
+## HTML learning
+
+The html forms are added in the directory `mc-html-trainer`, [LINK](././mc-html-trainer/README.md)
+
 
 ## Javascript learning
 
@@ -40,7 +47,3 @@ $ cd ./mc-ui-trainer/mc-javascript-trainer
 $ ./driver.sh
 
 ```
-
-## HTML learning
-
-The html forms are added in the directory `mc-html-trainer`, [index.md](././mc-html-trainer/index.md)
