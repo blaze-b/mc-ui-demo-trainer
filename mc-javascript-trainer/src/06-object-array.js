@@ -21,6 +21,35 @@ person['name'] = 'Mary';
 
 console.log(person);
 
+// Object Function Assignment
+
+let obj = {
+
+  a: 5,
+  b: () => {
+
+    console.log('b');
+
+  }
+
+};
+
+obj.b();
+
+// Object entries()
+
+obj = {
+
+  firstName: 'First',
+  lastName: 'Last',
+  age: 24,
+  country: 'India'
+
+};
+
+const entries = Object.entries(obj);
+
+console.log(entries);
 
 // Arrays
 
@@ -41,4 +70,3 @@ console.log(selected_colors[2]);
 // Length
 
 console.log(selected_colors.length);
-

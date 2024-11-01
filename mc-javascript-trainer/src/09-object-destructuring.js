@@ -45,3 +45,27 @@ univ_student({
 }, 10);
 
 
+// Object nested
+
+const Person = {
+  name : "Harry Potter",
+  age : 20,
+  sex : 'male',
+  maritalStatus : 'single',
+  address: {
+    country: 'USA',
+    state: 'Nevada',
+    city: 'Carson City',
+    pinCode: '500014'
+  }
+};
+
+let {address} = Person;
+
+console.log(address);
+
+const {address : {country, pinCode}, name} = Person;
+
+console.log(country, pinCode, name);
+
+console.log(city)
