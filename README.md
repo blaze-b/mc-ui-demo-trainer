@@ -9,6 +9,7 @@ This repository hosts the code for the MC UI Trainer project.
     - [Overview](#overview)
     - [Features](#features)
     - [HTML](#html-learning)
+    - [CSS](#css-learning)
     - [JS](#javascript-learning)
 
 ## Repository Link

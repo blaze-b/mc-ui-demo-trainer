@@ -36,7 +36,7 @@
 - Project Images:
     - Project Thumbnails = 600px width
     - Background images = 1400 px to 1200 px width
-- Example: - [SHOPIFY LINK](https://www.shopify.in/blog/7412852-10-must-know-image-optimization-tips)
+- Example: [SHOPIFY LINK](https://www.shopify.in/blog/7412852-10-must-know-image-optimization-tips)
 
 ## Relative paths:
 
