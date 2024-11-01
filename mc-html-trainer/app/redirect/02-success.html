@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <p><a href="../28-form-advanced.html">Back to form</a></p>
+        <h2>Success!</h2>
+        <p>Thanks for signing up for our newsletter.</p><br>
+        <hr>
+        <h4>You used the following name and email to sign-up</h4>
+        <p id="signup"></p>
+        <script>
+            const resultsList = document.getElementById('signup')
+            new URLSearchParams(window.location.search).forEach((value, name) => {
+                resultsList.append(`${name}: ${value}`)
+                resultsList.append(document.createElement('br'))
+            })
+        </script>
+    </main>
+</body>
+
+</html>

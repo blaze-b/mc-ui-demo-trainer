@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Form element basics</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h1>Our Form</h1>
+    <main>
+        <form action="redirect/02-success.html" method="GET">
+            <!-- input element -->
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text">
+                <!-- type email, validation and the mandatory -->
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" required placeholder="me@example.com">
+                <!-- type password, validation and the mandatory -->
+                <label for="password">Passowrd:</label>
+                <input id="password" name="password" type="password">
+                <!-- type search, validation and the mandatory -->
+                <label for="search">Search:</label>
+                <input id="search" name="search" type="search" placeholder="&#128269">
+                <!-- type phone, validation and the mandatory -->
+                <label for="phone">Phone Number:</label>
+                <input id="phone" name="phone" type="tel">
+            </div>
+            <!-- text are element -->
+            <div>
+                <label for="textarea">Text Area:</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <!-- type date, validation and the mandatory -->
+                <label for="date">Date:</label>
+                <input type="date" name="date1" id="date">
+                <!-- color phone, validation and the mandatory -->
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color">
+                <!-- color file, validation and the mandatory -->
+                <label for="file">File:</label>
+                <input type="file" name="file" id="file" accept="image/*" multiple>
+            </div>
+            <!-- Check boxes -->
+            <div>
+                <!-- checkbox needs value to get check the checked element -->
+                <label for="checkbox">Send Mail: </label>
+                <input type="checkbox" name="checkbox" id="checkbox" value="send_mail" checked>
+            </div>
+            <!-- Option listing -->
+            <div>
+                <label for="selectlist">Choose one</label>
+                <select id="selectlist" name="selectlist">
+                    <option>First Option</option>
+                    <option>Second Choice</option>
+                    <option>Third Thing</option>
+                </select>
+            </div>
+            <!-- check box for the field set -->
+            <fieldset>
+                <legend>Checkbox fields inside a fieldset</legend>
+                <label for="thischeck">This</label>
+                <input id="thischeck" name="checkboxlist" type="checkbox" value="This" checked>
+                <label for="orcheck">And/Or</label>
+                <input id="orcheck" name="checkboxlist" type="checkbox" value="And Or">
+                <label for="thatcheck">That</label>
+                <input id="thatcheck" name="checkboxlist" type="checkbox" value="That">
+            </fieldset>
+            <!-- radio button -->
+            <fieldset>
+                <legend>Radio button list inside a fieldset</legend>
+                <input id="thisradio" name="radiobutton" type="radio" value="This" checked>
+                <label for="thisradio">This</label>
+                <input id="orradio" name="radiobutton" type="radio" value="Or">
+                <label for="orradio">Or</label>
+                <input id="thatradio" name="radiobutton" type="radio" value="That">
+                <label for="thatradio">That</label>
+            </fieldset>
+            <div>
+                <button>Sign up</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
